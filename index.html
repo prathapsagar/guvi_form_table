@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <form id="form-group">
+            <div class="input">
+                <label>First Name:</label><br>
+                <input type="text" id="fname" />
+            </div>
+            <div class="input">
+                <label>Last Name:</label><br>
+                <input type="text" id="lname" />
+            </div>
+            <div class="input">
+                <label>Address:</label><br>
+                <input type="text" id="address" />
+            </div>
+            <div class="input">
+                <label>Pincode:</label><br>
+                <input type="text" id="pincode" />
+            </div>
+            <div class="input">
+                <label>Gender:</label><br>
+                <input type="text" id="gender" />
+            </div>
+            <div>
+                <label>Choose a food:</label><br>
+                <select id="foods">
+                    <option value="idli">Idli</option>
+                    <option value="dosa">Dosa</option>
+                    <option value="vada">Vada</option>
+                    <option value="puri">Puri</option>
+                    <option value="rice">Rice</option>
+                </select><br><br>
+            </div>
+            <div>
+                <label>State:</label><br>
+                <input type="text" id="state" />
+            </div>
+            <div>
+                <label>Country:</label><br>
+                <input type="text" id="country" />
+            </div>
+            <input type="button" value="Submit" id="entry" >
+        </form>
+        <table id="display">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>Choice of food</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
